@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* section one here =========================================================== */
+ .one{
+    background-image: url(images/sec1_back.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+ }
+
+
+/* navigation codes here ====================== */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.logo img{
+    width: 80px;
+}
+.nav_links{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav_links a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+.nav_links a:hover{
+    color: rgb(154, 138, 120);
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* .navigation codes ends here ================= */
+
+/* sec1 text codes  */
+
+.sec1_center_text{
+    text-align: center;
+    padding-top: 20vh;
+}
+.sec1_center_text h1{
+    color: white;
+    font-size: 90px;
+}
+.sec1_center_text p{
+    color: white;
+    font-size: 30px;
+}
+
+
+
+/* sec two here ========= */
+
+
+#bda_dabba{
+    background-color: rgb(38, 38, 38);
+}
+.chota_dabba{
+    width: 80vw;
+    background-color: red;
+}
+
+/* section two row one  */
+
+.s2row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10vh 0;
+}
+.primary_card{
+    padding: 10vh;
+    background-color: rgb(154, 138, 120);
+    color: white;
+    font-size: 20px;
+}
+.card{
+    padding: 10vh;
+    color: rgb(154, 138, 120);
+    border: 1px solid rgb(154, 138, 120);
+}
+
+/* section two row two  */
+
+.s2row2{
+    width: 72vw;
+    margin: auto;
+    padding-bottom: 10vh;
+}
+.s2row2 h1{
+    color: rgb(154, 138, 120);
+    font-size: 28px;
+}
+.s2row2 p{
+    color: white;
+}
+
+/* section two row three */
+
+.s2row3{
+    width: 80vw;
+    margin: auto;
+    display: flex; 
+    padding-bottom: 10vh;
+}
+.ph1{
+    padding: 10px;
+}
+.ph1 img{
+    width: 20vw;
+    border: 2px solid rgb(154, 138, 120);
+    padding: 2px;
+}
+.ph2 img{
+    width: 30vh;
+    border: 2px solid rgb(154, 138, 120);
+    padding: 2px;
+}
+.ph3 img{
+    width: 30vh;
+    border: 2px solid rgb(154, 138, 120);
+    padding: 2px;
+}
+
+/* section two row four  */
+
+.s2row4{
+    width: 72vw;
+    margin: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.s2row4 h1{
+    color: rgb(154, 138, 120);
+    font-size: 28px;
+}
+.s2row4 p{
+    color: white;
+}
+
+
+
+/* section foue here  */
+
+
+.four{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20vh;
+    color: rgb(154, 138, 120);
+}
+.contact_us h1{
+    font-size: 25px;
+    color: rgb(154, 138, 120);
+}
+.form{
+    width: 40vw;
+}
+.form .row1{
+    display: flex; 
+    justify-content: space-between;
+    padding: 30px 0;
+    color: rgb(154, 138, 120);
+}
+.form .row2{
+    padding: 30px 0;
+    color: rgb(154, 138, 120);
+}
+#email{
+    width: 34vw;
+    color: rgb(154, 138, 120);
+}
+.form .row3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: rgb(154, 138, 120);
+}
+input{
+    background-color: rgb(38, 38, 38);
+    border: none;
+    border-bottom: 1px solid rgb(179, 168, 164);
+}
+
+#submit_btn{
+    margin-top: 30px;
+    width: 40vw;
+    padding: 20px 0;
+    background-color: rgb(38, 38, 38);
+    color: rgb(179, 168, 164);
+    border: 1px solid rgb(179, 168, 164);
+    font-size: 16px;
+}
+#submit_btn:hover{
+    background-color: rgb(179, 168, 164);
+    color: white;
+    border: 1px white solid;
+}
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(179, 168, 164);
+    padding: 5px;
+    border-radius: 5px;
+}
+footer a:hover{
+    color: white;
+    background-color: rgb(179, 168, 164);
+    color: rgb(154, 138, 120);
+}

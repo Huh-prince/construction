@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* section one here =========================================================== */
+.one{
+    background-image: url(images/service_back.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* navigation codes here ====================== */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.logo img{
+    width: 80px;
+}
+.nav_links{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav_links a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+.nav_links a:hover{
+    color: rgb(154, 138, 120);
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* sec1 text ====== */
+
+.sec1_center_text{
+    text-align: center;
+    padding-top: 20vh;
+}
+.sec1_center_text h1{
+    color: white;
+    font-size: 90px;
+}
+.sec1_center_text p{
+    color: white;
+    font-size: 30px;
+}
+
+
+
+#bda_dabba{
+    background-color: rgb(38, 38, 38);
+}
+
+/* section two============================= */
+
+.two{
+    width: 80vw;
+    margin: auto;
+    padding: 10vh 0;
+}
+
+/* row1 here === */
+
+.row1{
+    display: flex;
+}
+.card1{
+    color: white;
+}
+.card h1{
+    color: rgb(179, 168, 164);
+}
+.card{
+    padding: 0 40px;
+    color: white;
+}
+.row1 .card img{
+    height: 40vh;
+}
+
+/* row2 here ======= */
+
+.row2{
+    padding: 10vh 0;
+    display: flex;
+
+}
+.row2 .r2c1 img{
+    height: 40vh;
+}
+
+
+/* row three here ===== */
+
+.row3{
+    display: flex;
+}
+.card{
+    padding: 0 70px;
+}
+.card1{
+    padding: 0 70px;
+    color: white;
+}
+.card1 h1{
+    padding-top: 70px;
+}
+
+/* section four here =================== */
+
+.four{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10vh;
+    color: rgb(179, 168, 164);
+    padding-top: 15vh;
+}
+.contact_us h1{
+    font-size: 25px;
+}
+.form{
+    width: 40vw;
+}
+.form .row1{
+    display: flex; 
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.form .row2{
+    padding: 30px 0;
+}
+#email{
+    width: 34vw;
+}
+.form .row3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+input{
+    background-color: rgb(38, 38, 38);
+    border: none;
+    border-bottom: 1px solid rgb(179, 168, 164);
+}
+
+#submit_btn{
+    margin-top: 30px;
+    width: 40vw;
+    padding: 20px 0;
+    background-color: rgb(38, 38, 38);
+    color: rgb(179, 168, 164);
+    border: 1px solid rgb(179, 168, 164);
+    font-size: 16px;
+}
+#submit_btn:hover{
+    background-color: rgb(179, 168, 164);
+    color: white;
+    border: 1px white solid;
+}
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(179, 168, 164);;
+}
+footer h1{
+    color: rgb(179, 168, 164);;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(179, 168, 164);
+    padding: 5px;
+    border-radius: 5px;
+}
+footer a:hover{
+    color: white;
+    background-color: rgb(179, 168, 164);
+}

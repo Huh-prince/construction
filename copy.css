@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(38, 38, 38);
+}
+/* section one here =========================================================== */
+.one{
+    background-color: rgb(38, 38, 38);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+/* navigation codes here ====================== */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.logo img{
+    width: 80px;
+}
+.nav_links{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav_links a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+.nav_links a:hover{
+    color: rgb(154, 138, 120);
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+/* text here  */
+
+#text_here{
+    margin: auto;
+    width: 80vw;
+    color: rgb(154, 138, 120);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact is or footer or section four ======================================= */
+
+.four{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20vh;
+    color: rgb(154, 138, 120);
+}
+.contact_us h1{
+    font-size: 25px;
+}
+.form{
+    width: 40vw;
+}
+.form .row1{
+    display: flex; 
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.form .row2{
+    padding: 30px 0;
+}
+#email{
+    width: 34vw;
+}
+.form .row3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+input{
+    background-color: rgb(38, 38, 38);
+    border: none;
+    border-bottom: 1px solid rgb(179, 168, 164);
+}
+
+#submit_btn{
+    margin-top: 30px;
+    width: 40vw;
+    padding: 20px 0;
+    background-color: rgb(38, 38, 38);
+    color: rgb(179, 168, 164);
+    border: 1px solid rgb(179, 168, 164);
+    font-size: 16px;
+}
+#submit_btn:hover{
+    background-color: rgb(179, 168, 164);
+    color: white;
+    border: 1px white solid;
+}
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(154, 138, 120);
+}
+footer a{
+    text-decoration: none;
+    color: rgb(179, 168, 164);
+    padding: 5px;
+    border-radius: 5px;
+}
+footer a:hover{
+    color: white;
+    background-color: rgb(179, 168, 164);
+}

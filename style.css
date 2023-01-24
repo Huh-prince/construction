@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* section one here =========================================================== */
+.one{
+    background-image: url(images/pho4.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+/* navigation codes here ====================== */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.logo img{
+    width: 80px;
+}
+.nav_links{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav_links a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+.nav_links a:hover{
+    color: rgb(154, 138, 120);
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+/* .navigation codes ends here ================= */
+
+/* sec1 text codes  */
+
+.sec1_center_text{
+    text-align: center;
+    padding-top: 20vh;
+}
+.sec1_center_text h1{
+    color: white;
+    font-size: 90px;
+}
+.sec1_center_text p{
+    color: white;
+    font-size: 30px;
+}
+
+/* sec1 text codes ends here =  */
+
+/* section two here ======================================== */
+
+.bda_dabba{
+    background-color: rgb(38, 38, 38);
+    color: rgb(179, 168, 164);
+}
+
+/* row1 ===== */
+.two{
+    max-width: 80vw;
+    margin: auto;
+    padding-top: 20vh;
+}
+.two .row1{
+    display: flex;
+    justify-content: space-between;
+}
+.left_side img{
+    width: 50vw;
+}
+.right_side{
+    padding-top: 20vh;
+    padding-right: 5vh;
+}
+.right_side h2{
+    font-size: 50px;
+}
+.right_side li{
+    font-size: 30px;
+    line-height: 40px;
+}
+.right_side button{
+    padding: 30px 70px;
+    font-size: 15px;
+    background-color: rgb(179, 168, 164);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+/* row1 ends ==== */
+
+/* row2 here  */
+
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    padding: 10vh;
+}
+
+/* row2 ends === */
+
+/* row3 here==== */
+
+.row3{
+    display: flex;
+    padding-bottom: 15vh;
+}
+.right img{
+    width: 40vw;
+}
+.left{
+    padding-top: 30vh;
+}
+.left h1{
+    font-size: 50px;
+}
+.left h2{
+    font-size: 30px;
+}
+.left p{
+    padding-right: 35px;
+    font-size: 20px;
+    text-align: justifys;
+}
+
+/* section three strats here ========================================== */
+
+.three{
+    max-width: 80vw;
+    margin: auto;
+}
+.heading h1{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 8vh;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20vh;
+}
+.left_images img{
+    width: 30vw;
+    border: 1px solid white;
+    border-radius: 20px;   
+    padding: 3px;
+}
+.right_images img{
+    width: 40vh;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+#item1{
+    height: 15vw;
+    padding: 3px;
+}
+#item2{
+    height: 15vw;
+    padding: 3px;
+}
+#item3{
+    height: 16.9vw;
+    padding: 3px;
+}
+#item4{
+    height: 16.9vw;
+    padding: 3px;
+}
+
+/* contact is or footer or section four ======================================= */
+
+.four{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20vh;
+}
+.contact_us h1{
+    font-size: 25px;
+}
+.form{
+    width: 40vw;
+}
+.form .row1{
+    display: flex; 
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.form .row2{
+    padding: 30px 0;
+}
+#email{
+    width: 34vw;
+}
+.form .row3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+input{
+    background-color: rgb(38, 38, 38);
+    border: none;
+    border-bottom: 1px solid rgb(179, 168, 164);
+}
+
+#submit_btn{
+    margin-top: 30px;
+    width: 40vw;
+    padding: 20px 0;
+    background-color: rgb(38, 38, 38);
+    color: rgb(179, 168, 164);
+    border: 1px solid rgb(179, 168, 164);
+    font-size: 16px;
+}
+#submit_btn:hover{
+    background-color: rgb(179, 168, 164);
+    color: white;
+    border: 1px white solid;
+}
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(179, 168, 164);
+    padding: 5px;
+    border-radius: 5px;
+}
+footer a:hover{
+    color: white;
+    background-color: rgb(179, 168, 164);
+}
